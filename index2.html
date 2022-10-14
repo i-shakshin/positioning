@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        position: relative;
+        text-align: center;
+        width: 1920px;
+        height: 1080px;
+      }
+
+      .image {
+        z-index: 1;
+        top: 0px;
+        position: absolute;
+      }
+
+      .background {
+        z-index: 2;
+        top: 0px;
+        position: absolute;
+        background-color: rgba(125, 21, 203, 0.6);
+        width: 1920px;
+        height: 1080px;
+      }
+
+      .text {
+        position: absolute;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 32px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        color: white;
+        font-weight: 700;
+        text-decoration: underline solid white;
+        font-style: italic;
+        font-variant: normal;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img
+          width="1920px"
+          height="1080px"
+          src="https://marketplace.canva.com/EAFHm4JWsu8/1/0/1600w/canva-pink-landscape-desktop-wallpaper-HGxdJA_xIx0.jpg"
+        />
+      </div>
+      <div class="background"></div>
+      <div class="text">memento mori</div>
+    </div>
+  </body>
+</html>
