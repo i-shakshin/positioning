@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        position: relative;
+        width: 800px;
+        height: 500px;
+        border: 3px solid black;
+        margin-top: 10px;
+      }
+
+      .title {
+        top: 0px;
+        display: inline-block;
+        position: sticky;
+        font-weight: bold;
+        font-size: large;
+      }
+      .block {
+        display: inline-block;
+        background-color: orangered;
+        height: 100px;
+        width: 200px;
+        margin: 5px;
+        margin-top: 20px;
+      }
+      .block-container {
+        box-sizing: border-box;
+        margin-left: auto;
+        width: 450px;
+      }
+
+      .block-blue {
+        position: sticky;
+        bottom: 0px;
+        display: inline-block;
+        background-color: blue;
+        height: 100px;
+        width: 200px;
+        margin: 5px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">STICKY TITLE 1</div>
+      <div class="block-container">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block-blue"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">STICKY TITLE 2</div>
+      <div class="block-container">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block-blue"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">STICKY TITLE 3</div>
+      <div class="block-container">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block-blue"></div>
+      </div>
+    </div>
+  </body>
+</html>
